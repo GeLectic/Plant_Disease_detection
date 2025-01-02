@@ -45,9 +45,9 @@ The model achieves a training accuracy of **98.28%** and a validation accuracy o
    ```bash
    python train.py
    ```
-4. Predict plant disease on new images:
+4. Streamlit app link:
    ```bash
-   python predict.py --image_path <path_to_image>
+    
    ```
 
 ## Requirements
