@@ -26,8 +26,8 @@ The model was trained using the following parameters:
 - Input shape: (128, 128, 3)
 - Loss function: Categorical Crossentropy
 - Optimizer: Adam
-- Epochs: Configurable (e.g., 50+ depending on computational resources)
-- Batch size: Configurable (e.g., 32 or 64)
+- Epochs: Configurable (10)
+- Batch size: Configurable (32)
 
 ## Results
 The model achieves a training accuracy of **98.28%** and a validation accuracy of **97.31%**, demonstrating high performance in classifying plant diseases. Detailed metrics and performance logs are included in the repository.
@@ -43,16 +43,20 @@ The model achieves a training accuracy of **98.28%** and a validation accuracy o
    ```
 3. Run the training script:
    ```bash
-   python train.py
+   python run.py
    ```
 4. Streamlit app link:
    ```bash
-    
+    https://plantdiseasedetection-xyz.streamlit.app/
+   ```
+5. Data set useed -
+    ```bash
+    https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
    ```
 
 ## Requirements
 - Python 3.7+
-- TensorFlow 2.x
+- TensorFlow 2.18.0
 - NumPy
 - Matplotlib
 - OpenCV
