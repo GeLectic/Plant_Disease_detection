@@ -5,7 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
  
-model = tf.keras.models.load_model('D:/Codes/python/Plant_Disease_prediction/model_plant.h5')
+model = tf.keras.models.load_model('model_plant.h5')
 
 
 class_names = [
